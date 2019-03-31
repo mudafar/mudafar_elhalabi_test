@@ -1,16 +1,17 @@
 # This repo includes the solution for the technical test.  
+- Based on Python 3.7.0
 
-Note:  Time spent: 1 day
+- Time spent: 1 day.
 
 ## Question A: 
-Solution can be found in `overlap.py`.
+Solution can be found in [overlap.py](overlap.py).
 
 The provided function `is_lines_segments_overlap()` handles the following cases:
 - Sorted values as the provided in the example.
 - Unsorted values, e.g: x1 > x2
 
 ## Question B: 
-Solution can be found in `version_checker.py`
+Solution can be found in [version_checker.py](version_checker.py)
 
 The solution given in `version_checker()` can handle the given example and any  valid nested sub-versions, e.g:
 - 1, 2
@@ -25,7 +26,7 @@ Note: also the version input can includes the letter `v` as it maybe common in s
 
 ## Question C: 
 
-Solution can be found in `tlru.py` 
+Solution can be found in  [tlru.py](tlru.py) 
 
 For this question I just built the base structure aka- `class` to manage a time aware least
 recently used cache, that is with time expiration.
